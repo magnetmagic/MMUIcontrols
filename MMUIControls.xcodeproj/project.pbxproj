@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28BF8BE21EDD228300E15A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF8BE11EDD228300E15A2E /* AppDelegate.swift */; };
+		28BF8BE41EDD228300E15A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF8BE31EDD228300E15A2E /* ViewController.swift */; };
+		28BF8BE71EDD228300E15A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BF8BE51EDD228300E15A2E /* Main.storyboard */; };
+		28BF8BE91EDD228300E15A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BF8BE81EDD228300E15A2E /* Assets.xcassets */; };
+		28BF8BEC1EDD228300E15A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BF8BEA1EDD228300E15A2E /* LaunchScreen.storyboard */; };
+		28BF8BF51EDD240800E15A2E /* MMRecButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF8BF41EDD240800E15A2E /* MMRecButton.swift */; };
+		28BF8BF71EDD42A900E15A2E /* MMCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF8BF61EDD42A900E15A2E /* MMCloseButton.swift */; };
+		28BF8BF91EDD5B5000E15A2E /* MMStrobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF8BF81EDD5B5000E15A2E /* MMStrobeView.swift */; };
+		28BF8BFB1EDD605500E15A2E /* MMHamburgerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF8BFA1EDD605500E15A2E /* MMHamburgerButton.swift */; };
+		28BF8BFD1EDD66C000E15A2E /* MMBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BF8BFC1EDD66C000E15A2E /* MMBackButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28BF8BDE1EDD228300E15A2E /* MMUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BF8BE11EDD228300E15A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28BF8BE31EDD228300E15A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28BF8BE61EDD228300E15A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28BF8BE81EDD228300E15A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28BF8BEB1EDD228300E15A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28BF8BED1EDD228300E15A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BF8BF41EDD240800E15A2E /* MMRecButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMRecButton.swift; sourceTree = "<group>"; };
+		28BF8BF61EDD42A900E15A2E /* MMCloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMCloseButton.swift; sourceTree = "<group>"; };
+		28BF8BF81EDD5B5000E15A2E /* MMStrobeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMStrobeView.swift; sourceTree = "<group>"; };
+		28BF8BFA1EDD605500E15A2E /* MMHamburgerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMHamburgerButton.swift; sourceTree = "<group>"; };
+		28BF8BFC1EDD66C000E15A2E /* MMBackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMBackButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28BF8BDB1EDD228300E15A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28BF8BD51EDD228300E15A2E = {
+			isa = PBXGroup;
+			children = (
+				28BF8BE01EDD228300E15A2E /* MMUIControls */,
+				28BF8BDF1EDD228300E15A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28BF8BDF1EDD228300E15A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28BF8BDE1EDD228300E15A2E /* MMUIControls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28BF8BE01EDD228300E15A2E /* MMUIControls */ = {
+			isa = PBXGroup;
+			children = (
+				28BF8BE11EDD228300E15A2E /* AppDelegate.swift */,
+				28BF8BE31EDD228300E15A2E /* ViewController.swift */,
+				28BF8BE51EDD228300E15A2E /* Main.storyboard */,
+				28BF8BE81EDD228300E15A2E /* Assets.xcassets */,
+				28BF8BEA1EDD228300E15A2E /* LaunchScreen.storyboard */,
+				28BF8BED1EDD228300E15A2E /* Info.plist */,
+				28BF8BF31EDD228D00E15A2E /* Controls */,
+			);
+			path = MMUIControls;
+			sourceTree = "<group>";
+		};
+		28BF8BF31EDD228D00E15A2E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				28BF8BF41EDD240800E15A2E /* MMRecButton.swift */,
+				28BF8BF61EDD42A900E15A2E /* MMCloseButton.swift */,
+				28BF8BF81EDD5B5000E15A2E /* MMStrobeView.swift */,
+				28BF8BFA1EDD605500E15A2E /* MMHamburgerButton.swift */,
+				28BF8BFC1EDD66C000E15A2E /* MMBackButton.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28BF8BDD1EDD228300E15A2E /* MMUIControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BF8BF01EDD228300E15A2E /* Build configuration list for PBXNativeTarget "MMUIControls" */;
+			buildPhases = (
+				28BF8BDA1EDD228300E15A2E /* Sources */,
+				28BF8BDB1EDD228300E15A2E /* Frameworks */,
+				28BF8BDC1EDD228300E15A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMUIControls;
+			productName = MMUIControls;
+			productReference = 28BF8BDE1EDD228300E15A2E /* MMUIControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28BF8BD61EDD228300E15A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "magnet-magic";
+				TargetAttributes = {
+					28BF8BDD1EDD228300E15A2E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K8TBV3VF2T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 28BF8BD91EDD228300E15A2E /* Build configuration list for PBXProject "MMUIControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28BF8BD51EDD228300E15A2E;
+			productRefGroup = 28BF8BDF1EDD228300E15A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28BF8BDD1EDD228300E15A2E /* MMUIControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28BF8BDC1EDD228300E15A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BF8BEC1EDD228300E15A2E /* LaunchScreen.storyboard in Resources */,
+				28BF8BE91EDD228300E15A2E /* Assets.xcassets in Resources */,
+				28BF8BE71EDD228300E15A2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28BF8BDA1EDD228300E15A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BF8BF91EDD5B5000E15A2E /* MMStrobeView.swift in Sources */,
+				28BF8BFB1EDD605500E15A2E /* MMHamburgerButton.swift in Sources */,
+				28BF8BE41EDD228300E15A2E /* ViewController.swift in Sources */,
+				28BF8BE21EDD228300E15A2E /* AppDelegate.swift in Sources */,
+				28BF8BF71EDD42A900E15A2E /* MMCloseButton.swift in Sources */,
+				28BF8BFD1EDD66C000E15A2E /* MMBackButton.swift in Sources */,
+				28BF8BF51EDD240800E15A2E /* MMRecButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28BF8BE51EDD228300E15A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BF8BE61EDD228300E15A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28BF8BEA1EDD228300E15A2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BF8BEB1EDD228300E15A2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28BF8BEE1EDD228300E15A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28BF8BEF1EDD228300E15A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28BF8BF11EDD228300E15A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8TBV3VF2T;
+				INFOPLIST_FILE = MMUIControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magnet-magic.MMUIControls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28BF8BF21EDD228300E15A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K8TBV3VF2T;
+				INFOPLIST_FILE = MMUIControls/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magnet-magic.MMUIControls";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28BF8BD91EDD228300E15A2E /* Build configuration list for PBXProject "MMUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BF8BEE1EDD228300E15A2E /* Debug */,
+				28BF8BEF1EDD228300E15A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28BF8BF01EDD228300E15A2E /* Build configuration list for PBXNativeTarget "MMUIControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BF8BF11EDD228300E15A2E /* Debug */,
+				28BF8BF21EDD228300E15A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28BF8BD61EDD228300E15A2E /* Project object */;
+}
